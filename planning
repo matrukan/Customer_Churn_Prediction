@@ -1,1 +1,85 @@
+✅ Task Checklist With Time Estimates
+🔧 Day 1: Setup
+ Define problem & success metrics (30 mins)
+
+ Create folder structure + GitHub init (30 mins)
+
+ Load dataset and inspect structure (2 hrs)
+
+ Check for nulls, data types, imbalance (1 hr)
+
+ Log observations + hypotheses (2 hrs)
+
+📊 Day 2: EDA + Root Cause
+ Plot churn by contract, payment, tenure (2 hrs)
+
+ Correlation heatmap (1 hr)
+
+ Chi-square test for categorical features (1 hr)
+
+ Pareto chart of top churn drivers (1 hr)
+
+ Write markdown conclusions (2 hrs)
+
+🏗 Day 3: Feature Engineering
+ Encode categorical vars (1 hr)
+
+ Create tenure_group, contract_score, etc. (2 hrs)
+
+ Check feature balance and leakage (1 hr)
+
+ Finalize cleaned data (2 hrs)
+
+📈 Day 4: Baseline Modeling
+ Train/test split (30 mins)
+
+ Fit logistic regression model (1 hr)
+
+ Evaluate accuracy, recall, precision (1 hr)
+
+ Plot confusion matrix, ROC curve (1.5 hrs)
+
+ Analyze coefficients for business insights (2 hrs)
+
+🚀 Day 5: Advanced Modeling
+ Train Random Forest + XGBoost (2 hrs)
+
+ Use SMOTE or class weights (1.5 hrs)
+
+ Cross-validate & tune hyperparameters (2 hrs)
+
+ Compare metrics vs baseline (1.5 hrs)
+
+🧠 Day 6: Explainability
+ Install & apply SHAP (1 hr)
+
+ Plot SHAP summary + dependence plots (2 hrs)
+
+ Compare SHAP top drivers vs root cause EDA (1 hr)
+
+ Document final model choice + explanation (2 hrs)
+
+📈 Day 7: Insights + Reporting
+ Create insights summary (markdown or PPT) (2 hrs)
+
+ Build Power BI dashboard or Streamlit app (4 hrs)
+
+ Filter: High-risk customers, churn % by segment (2 hrs)
+
+📝 Day 8: Docs + GitHub
+ Finalize notebook cleanup (2 hrs)
+
+ Add README.md and requirements.txt (2 hrs)
+
+ Push models, outputs, and screenshots (2 hrs)
+
+🎤 Day 9: Final Demo + Polish
+ Write 1-page executive summary (1 hr)
+
+ Record video walkthrough (optional) (1 hr)
+
+ Retrospective: What worked, what didn’t (30 mins)
+
+ Simulate stakeholder presentation (1.5 hrs)
+
 
