@@ -1,5 +1,23 @@
-✅ Task Checklist With Time Estimates
-🔧 Day 1: Setup
+Project Structure
+customer_churn_prediction/
+├── data/                  # Raw and processed datasets
+│   └── churn_data.csv
+├── notebooks/             # All notebooks per sprint
+│   └── 01_eda.ipynb
+│   └── 02_modeling.ipynb
+│   └── 03_root_cause.ipynb
+├── models/                # Saved models (.pkl files)
+├── outputs/               # Graphs, metrics, export files
+├── reports/               # PDF/PowerPoint summary for stakeholders
+├── dashboards/            # Power BI files (.pbix)
+├── README.md              # Project overview
+├── requirements.txt       # Python dependencies
+└── .gitignore
+
+
+
+Task Checklist With Time Estimates
+Day 1: Setup
  Define problem & success metrics (30 mins)
 
  Create folder structure + GitHub init (30 mins)
@@ -10,7 +28,7 @@
 
  Log observations + hypotheses (2 hrs)
 
-📊 Day 2: EDA + Root Cause
+Day 2: EDA + Root Cause
  Plot churn by contract, payment, tenure (2 hrs)
 
  Correlation heatmap (1 hr)
@@ -21,7 +39,7 @@
 
  Write markdown conclusions (2 hrs)
 
-🏗 Day 3: Feature Engineering
+Day 3: Feature Engineering
  Encode categorical vars (1 hr)
 
  Create tenure_group, contract_score, etc. (2 hrs)
@@ -30,7 +48,7 @@
 
  Finalize cleaned data (2 hrs)
 
-📈 Day 4: Baseline Modeling
+Day 4: Baseline Modeling
  Train/test split (30 mins)
 
  Fit logistic regression model (1 hr)
@@ -41,7 +59,7 @@
 
  Analyze coefficients for business insights (2 hrs)
 
-🚀 Day 5: Advanced Modeling
+Day 5: Advanced Modeling
  Train Random Forest + XGBoost (2 hrs)
 
  Use SMOTE or class weights (1.5 hrs)
@@ -50,7 +68,7 @@
 
  Compare metrics vs baseline (1.5 hrs)
 
-🧠 Day 6: Explainability
+Day 6: Explainability
  Install & apply SHAP (1 hr)
 
  Plot SHAP summary + dependence plots (2 hrs)
@@ -59,21 +77,21 @@
 
  Document final model choice + explanation (2 hrs)
 
-📈 Day 7: Insights + Reporting
+Day 7: Insights + Reporting
  Create insights summary (markdown or PPT) (2 hrs)
 
  Build Power BI dashboard or Streamlit app (4 hrs)
 
  Filter: High-risk customers, churn % by segment (2 hrs)
 
-📝 Day 8: Docs + GitHub
+Day 8: Docs + GitHub
  Finalize notebook cleanup (2 hrs)
 
  Add README.md and requirements.txt (2 hrs)
 
  Push models, outputs, and screenshots (2 hrs)
 
-🎤 Day 9: Final Demo + Polish
+Day 9: Final Demo + Polish
  Write 1-page executive summary (1 hr)
 
  Record video walkthrough (optional) (1 hr)
