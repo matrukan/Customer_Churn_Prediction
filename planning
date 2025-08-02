@@ -18,13 +18,13 @@ customer_churn_prediction/
 
 Task Checklist With Time Estimates
 Day 1: Setup
- Define problem & success metrics (30 mins)
+ Define problem & success metrics (30 mins) - Done
 
- Create folder structure + GitHub init (30 mins)
+ Create folder structure + GitHub init (30 mins) - Done
 
- Load dataset and inspect structure (2 hrs)
+ Load dataset and inspect structure (2 hrs) - 
 
- Check for nulls, data types, imbalance (1 hr)
+ Check for nulls, data types, imbalance (1 hr) - 
 
  Log observations + hypotheses (2 hrs)
 
